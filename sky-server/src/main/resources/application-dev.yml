@@ -6,3 +6,23 @@ sky:
     database: sky_take_out
     username: root
     password: 20030206
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 10
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: placeholder
+    access-key-secret: placeholder
+    bucket-name: placeholder
+  wechat:
+    appid: placeholder
+    secret: placeholder
+    mchid: placeholder
+    mchSerialNo: placeholder
+    privateKeyFilePath: placeholder.pem
+    apiV3Key: placeholder
+    weChatPayCertFilePath: placeholder.pem
+    notifyUrl: http://localhost/notify
+    refundNotifyUrl: http://localhost/refund
